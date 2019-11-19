@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User logs in for auto policy",
+        "description": "",
+        "id": "login;user-logs-in-for-auto-policy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user selects Auto as account type",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user logs in with valid credentials",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user verifies \"Dashboard\" name is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autopolicy"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user I want to login under different types of accounts",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\login\\Login.feature",
+    "tags": []
+  }
+]
