@@ -7,4 +7,9 @@ public class GitHubPracticeClass2 {
     public void fatih(){
         System.out.println("fatih1");
     }
+
+    @Test
+    public void fatih2(){
+        System.out.println("fatih2");
+    }
 }
